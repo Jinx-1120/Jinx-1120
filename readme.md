@@ -21,8 +21,8 @@
 
 happiness is the most important thing ...
 
-| <a href="https://github.com/Jhaidi"><img align="center" src="https://github-readme-stats.vercel.app/api?username=Jhaidi&show_icons=true&theme=vue&hide=prs&hide_border=true&count_private=true" alt="Anurag's github stats" /></a> | <a href="https://github.com/Jhaidi"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jhaidi&theme=vue&layout=compact&hide_border=true" /></a> |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <a href="https://github.com/Jinx-1120"><img align="center" src="https://github-readme-stats.vercel.app/api?username=Jinx-1120&show_icons=true&theme=vue&hide=prs&hide_border=true&count_private=true" alt="Anurag's github stats" /></a> | <a href="https://github.com/Jinx-1120"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jinx-1120&theme=vue&layout=compact&hide_border=true" /></a> |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jinx-1120/Jinx-1120/output/github-snake-dark.svg">
