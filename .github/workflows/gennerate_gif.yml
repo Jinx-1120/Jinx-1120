@@ -7,16 +7,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2.3.4
+      - name: Checkout Repository
+        uses: actions/checkout@v2
       - name: generate-snake-game-from-github-contribution-grid
-        uses: Platane/snk@v2.2.1
-        id: snake-gif
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             ./assets/github-snake.svg
             ./assets/github-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       # push the content of <build_dir> to a branch
       # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
       - name: push github-contribution-grid-snake.svg to the output branch
@@ -27,9 +28,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Push to GitHub
-        uses: EndBug/add-and-commit@v7.2.1
+        uses: EndBug/add-and-commit@v9
         with:
-          branch: main
           author_name: Jinx
           author_email: jinhaidi01@gmail.com
           message: "Generate Contribution Snake"
