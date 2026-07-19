@@ -1,31 +1,45 @@
-## 👋 Hi there 
-<code><img width="24" height="24" src="https://cdn.svgporn.com/logos/html-5.svg"></code>&nbsp;
-<code><img width="24" height="24" src="https://cdn.svgporn.com/logos/css-3.svg"></code>&nbsp;
-<code><img width="24" height="24" src="https://cdn.svgporn.com/logos/sass.svg"></code>&nbsp;
-<code><img width="24" height="24" src="https://cdn.svgporn.com/logos/javascript.svg"></code>&nbsp;
-<code><img width="24" height="24" src="https://cdn.svgporn.com/logos/typescript-icon.svg"></code>&nbsp;
-<code><img width="24" height="24" src="https://cdn.svgporn.com/logos/vue.svg"></code>&nbsp;
-<code><img width="24" height="24" src="https://cdn.svgporn.com/logos/vitejs.svg"></code>&nbsp;
-<code><img width="24" height="24" src="https://cdn.svgporn.com/logos/react.svg"></code>&nbsp;
-<code><img width="24" height="24" src="https://cdn.svgporn.com/logos/nuxt-icon.svg"></code>&nbsp;
-<code><img width="24" height="24" src="https://cdn.svgporn.com/logos/flutter.svg"></code>&nbsp;
-<code><img width="24" height="24" src="https://cdn.svgporn.com/logos/nodejs-icon-alt.svg"></code>&nbsp;
-<code><img width="24" height="24" src="https://cdn.svgporn.com/logos/nestjs.svg"></code>&nbsp;
-<code><img width="24" height="24" src="https://cdn.svgporn.com/logos/mongodb-icon.svg"></code>&nbsp;
-<code><img width="24" height="24" src="https://cdn.svgporn.com/logos/mysql.svg"></code>&nbsp;
-<code><img width="24" height="24" src="https://cdn.svgporn.com/logos/docker.svg"></code>&nbsp;
-<code><img width="24" height="24" src="https://cdn.svgporn.com/logos/nginx.svg"></code>&nbsp;
-<code><img width="24" height="24" src="https://cdn.svgporn.com/logos/jenkins.svg"></code>&nbsp;
+<div align="center">
 
-## ⚡ Fun fact
+# Jinx
 
-happiness is the most important thing ...
+### I build AI systems that can hold state, survive failure, and finish the job.
 
-| <a href="https://github.com/Jinx-1120"><img align="center" src="https://github-readme-stats.vercel.app/api?username=Jinx-1120&show_icons=true&theme=vue&hide=prs&hide_border=true&count_private=true" alt="Anurag's github stats" /></a> | <a href="https://github.com/Jinx-1120"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jinx-1120&theme=vue&layout=compact&hide_border=true" /></a> |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+`agent runtimes` · `workflow engineering` · `developer tools` · `applied research`
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jinx-1120/Jinx-1120/output/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jinx-1120/Jinx-1120/output/github-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Jinx-1120/Jinx-1120/output/github-snake.svg">
-</picture>
+</div>
+
+I started with web interfaces and build tooling. These days I work closer to the boundaries between agents, runtimes, data, and people—mostly in TypeScript, with Rust and Python where the system calls for them.
+
+I care about making AI work operational: explicit state, recoverable execution, human checkpoints, useful observability, and evidence that the real path works.
+
+## Recent public work
+
+| Project | What I am exploring |
+| --- | --- |
+| [Agent Skills](https://github.com/Jinx-1120/skills) | Portable, evidence-first workflows for coding agents—designed around clear outcomes, adaptive depth, and truthful completion. |
+| [MDX Renderer](https://github.com/Jinx-1120/mdx-renderer) | A browser-based MDX playground with isolated preview, custom components, local persistence, and a deliberately small runtime. |
+| [agent-cli](https://github.com/Jinx-1120/creater-cli) | An experiment in multi-agent software workflows with durable state, DAG scheduling, human checkpoints, and breakpoint recovery. |
+
+## How I work
+
+```text
+inspect reality → model state & failure → ship a focused slice → verify the boundary → document the contract
+```
+
+- Real runtime evidence beats plausible-looking output.
+- State, failure, recovery, and cancellation are product work—not cleanup.
+- Tests, docs, config, and examples should ship with the behavior they describe.
+- Repetition is usually a signal to build a tool, adapter, or reusable workflow.
+- I prefer small, descriptive commits and progressive hardening over one opaque rewrite.
+
+## Current toolbox
+
+- **Languages:** TypeScript · Rust · Python · SQL
+- **Frontend:** React · Next.js · Vite · Tailwind CSS · shadcn/ui · Storybook · React-Native · Flutter
+- **Backend & data:** Bun · Node.js · Hono · Drizzle ORM · PostgreSQL · ClickHouse · Redis · BullMQ · Polars
+- **AI & interfaces:** AI SDK · MCP · oRPC · TanStack Query · Zod · hermes-agent
+- **Engineering:** Turborepo · Biome · Vitest · Bun Test · Rstest · Docker · Kubernetes · Helm · OpenTelemetry · GitHub Actions
+
+---
+
+If you are working on durable agents, developer infrastructure, or better human–agent workflows, I am interested in the hard parts: ownership, recovery, and proving that the system actually works.
