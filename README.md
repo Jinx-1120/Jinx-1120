@@ -17,6 +17,7 @@ I care about making AI work operational: explicit state, recoverable execution, 
 | Project | What I am exploring |
 | --- | --- |
 | [Agent Skills](https://github.com/Jinx-1120/skills) | Portable, evidence-first workflows for coding agents—designed around clear outcomes, adaptive depth, and truthful completion. |
+| [Ankole](https://github.com/AgentBull/ankole) | Contributing runtime, console, and cross-runtime E2E work to an open-source, self-hosted AgentOS for shared AI colleagues. |
 | [MDX Renderer](https://github.com/Jinx-1120/mdx-renderer) | A browser-based MDX playground with isolated preview, custom components, local persistence, and a deliberately small runtime. |
 | [agent-cli](https://github.com/Jinx-1120/creater-cli) | An experiment in multi-agent software workflows with durable state, DAG scheduling, human checkpoints, and breakpoint recovery. |
 
@@ -35,7 +36,7 @@ inspect reality → model state & failure → ship a focused slice → verify th
 ## Current toolbox
 
 - **Languages:** TypeScript · Rust · Python · SQL
-- **Frontend:** React · Next.js · Vite · Tailwind CSS · shadcn/ui · Storybook · React-Native · Flutter
+- **Frontend:** React · Next.js · Vite · Tailwind CSS · shadcn/ui · React-Native · Flutter
 - **Backend & data:** Bun · Node.js · Hono · Drizzle ORM · PostgreSQL · ClickHouse · Redis · BullMQ · Polars
 - **AI & interfaces:** AI SDK · MCP · oRPC · TanStack Query · Zod · hermes-agent
 - **Engineering:** Turborepo · Biome · Vitest · Bun Test · Rstest · Docker · Kubernetes · Helm · OpenTelemetry · GitHub Actions
